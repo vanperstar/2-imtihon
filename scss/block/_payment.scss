@@ -240,7 +240,7 @@
         }
         &_items{
             &_img{
-                transform: translateX(-30px);
+                transform: translateX(-45px);
                 &_UI{
                     width: 40%;
                     margin: auto;
@@ -252,6 +252,7 @@
         }
 
         &_start{
+            transform: translateX(-15px);
             text-align: center;
             margin: auto;
             flex-direction: column;
@@ -271,6 +272,7 @@
             }
         }
         &_ready{
+            transform: translateX(-10px);
             width: 100%;
             &_title{
                 font-size: 32px;
