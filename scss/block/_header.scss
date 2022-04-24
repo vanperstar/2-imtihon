@@ -39,6 +39,8 @@
         position: absolute;
         width: 844px;
         height: 805px;
+        // width: 0;
+        // height: 0;
         background: url(../../img/header_bacground.png) no-repeat;
         background-size: cover;
         transform: translateX(470px) translateY(-184px);
@@ -161,6 +163,12 @@
             position: absolute;
             bottom: -200px;
             left: 35%;
+        }
+
+        &_bacground{
+            width: 0px;
+            height: 0px;
+            background: none;
         }
             
     }

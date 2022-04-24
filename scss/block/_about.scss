@@ -129,5 +129,11 @@
         .about_logos--svg{
             margin-left: auto;
         }
+
+        &_bacground{
+            background: none;
+            width: 0px;
+            height: 0px;
+        }
     }
 }
