@@ -61,6 +61,14 @@
             margin-left: 70px;
         }
     }
+    &_bacground{
+        position: absolute;
+        transform: translateX(-861px) translateY(0px);
+        width: 1282px;
+        height: 477px;
+        background: url(../../img/about_bac.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 768px) {

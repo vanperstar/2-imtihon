@@ -35,6 +35,16 @@
         }
     }
 
+    &_bacground{
+        position: absolute;
+        width: 844px;
+        height: 805px;
+        background: url(../../img/header_bacground.png) no-repeat;
+        background-size: cover;
+        transform: translateX(470px) translateY(-184px);
+        display: flex;
+    }
+
     &_btn{
         padding: 16px 24px 14px 26px;
         box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
