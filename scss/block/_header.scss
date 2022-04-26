@@ -60,6 +60,11 @@
 @media screen and (max-width: 768px) {
     .header{
         justify-content: space-between;
+        &_bacground{
+            background: none;
+            width: 0;
+            height: 0;
+        }
     }
 }
 
